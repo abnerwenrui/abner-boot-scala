@@ -1,0 +1,16 @@
+server:
+  port: 7777
+  servlet:
+    context-path: /scala-boot
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: rootroot
+    url: jdbc:mysql://localhost:3306/abner_boot_scala
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database: mysql
+
